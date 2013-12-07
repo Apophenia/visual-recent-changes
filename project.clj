@@ -3,14 +3,14 @@
   :url "http://example.com/FIXME"
 
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/clojurescript "0.0-1978"]
+                 [org.clojure/clojurescript "0.0-2030"]
                  [org.clojure/core.async "0.1.242.0-44b1e3-alpha"]]
 
   :plugins [[lein-cljsbuild "0.3.4"]]
 
   :source-paths ["src"]
 
-  :cljsbuild { 
+  :cljsbuild {
     :builds [{:id "visual-rc"
               :source-paths ["src"]
               :compiler {
